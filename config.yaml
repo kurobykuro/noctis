@@ -1,0 +1,29 @@
+opsec:
+  enabled: true
+  min_score: 5
+  offline: true
+
+passive:
+  subfinder: true
+  crt_sh: true
+  whois: true
+  dns_records: true
+  max_subdomains: 500
+
+active:
+  profile: phantom
+  timeout: 600
+
+resolve:
+  enabled: true
+  concurrency: 50
+
+http:
+  enabled: true
+  concurrency: 50
+  timeout: 10
+
+output:
+  dir: "~/.noctis/recon"
+  formats: ["json", "html"]
+  keep_raw: true
