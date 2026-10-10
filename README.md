@@ -15,7 +15,7 @@ Recon pipeline for authorized security testing only.
 ## Installation
 
 ```bash
-git clone <repo>
+git clone https://github.com/kurobykuro/noctis
 cd noctis
 chmod +x install.sh
 ./install.sh
